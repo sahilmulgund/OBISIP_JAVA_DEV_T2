@@ -1,0 +1,47 @@
+# Java ATM Project
+
+## Overview
+This is a simple Java-based ATM simulation. Users can authenticate, view transaction history, withdraw, deposit, and transfer funds.
+
+## Features
+- User authentication (User ID & PIN)
+- Transaction history
+- Withdraw and deposit operations
+- Fund transfer between users
+
+## How to Run
+1. Compile all `.java` files:
+    ```
+    javac *.java
+    ```
+2. Run the ATM program:
+    ```
+    java ATM
+    ```
+
+## File Structure
+- `ATM.java`: Main class with user interface and menu
+- `Bank.java`: Handles user data and authentication
+- `User.java`: Represents a user account
+- `ATMOperations.java`: Contains ATM operations logic
+
+## Requirements
+- Java 8 or higher
+
+## Example Usage
+```
+=== Welcome to the Java ATM ===
+Enter User ID: user1
+Enter PIN: 1234
+Authentication successful. Welcome, user1!
+
+ATM Menu:
+1. Transaction History
+2. Withdraw
+3. Deposit
+4. Transfer
+5. Quit
+Choose option: 2
+Amount to withdraw: 100
+...
+```
